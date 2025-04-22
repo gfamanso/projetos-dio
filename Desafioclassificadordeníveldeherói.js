@@ -1,7 +1,7 @@
 //Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói
 
 let nome = "Batman"
-let xp = -3500
+let xp = 5500
 let nível = ["Ferro", "Bronze", "Prata", "Ouro", 
     "Platina", "Ascendente", "Imortal", "Radiante"]
 
