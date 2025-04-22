@@ -39,10 +39,10 @@ function saldoVitorias(n=0){
 }
 
 let wins = 32
-let losses = 28
-let player = totalPartidas (wins, losses)
+let defeats = 28
+let player = totalPartidas (wins, defeats)
 let res = saldoVitorias(player)
 
-console.log(`O jogador tem ${wins} vitória(s), ${losses} derrota(s) e está no nível ${res}.`)
-console.log(`O jogador tem ${wins} vitória(s), ${losses} derrota(s), um saldo de ${player} vitória(s) e está no nível ${res}.`)
+console.log(`O jogador tem ${wins} vitória(s), ${defeats} derrota(s) e está no nível ${res}.`)
+console.log(`O jogador tem ${wins} vitória(s), ${defeats} derrota(s), um saldo de ${player} vitória(s) e está no nível ${res}.`)
 console.log(`O jogador tem um saldo de ${player} vitória(s) e está no nível ${res}.`)
